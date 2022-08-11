@@ -10,13 +10,11 @@ interface Props {
 interface FreeShippingStatusProps {
     regionsAndValueToFreeShipping: Props[],
     valueForFreeShipping: number;
-    hideForUnlistedRegions: boolean,
     showFreeShippingComponent: boolean,
 }
 
 export const FreeShippingStatus = ({
     valueForFreeShipping,
-    hideForUnlistedRegions,
     regionsAndValueToFreeShipping,
     showFreeShippingComponent
 }:FreeShippingStatusProps)=> {
@@ -33,8 +31,6 @@ export const FreeShippingStatus = ({
     }
 
     const { value } = orderForm;
-
-    hideForUnlistedRegions;
 
     function formatBrazilianCurrency(cents: number): string {
         const config = {

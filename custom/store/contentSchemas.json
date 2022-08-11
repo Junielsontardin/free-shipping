@@ -73,11 +73,6 @@
                 "type": "number",
                 "default": 15000
               },
-              "hideForUnlistedRegions": {
-                "title": "Ocultar para regioes nao listadas",
-                "type": "boolean",
-                "default": false
-              },
               "regionsAndValueToFreeShipping": {
                 "title": "Regiões e valores para frete grátis",
                 "type": "array",

@@ -34,11 +34,16 @@
         "children": ["flex-layout.col#minicart-footer"]
     },
     "flex-layout.col#minicart-footer": {
-        "children": ["minicart-summary", "minicart-checkout-button", "free-shipping"]
+        "children": [
+            "free-shipping",
+            "minicart-summary", 
+            "minicart-checkout-button"
+        ]
     },
     "free-shipping": {
         "props": {
             "showFreeShippingComponent": true,
+            "valueForFreeShipping": "15000",
             "regionsAndValueToFreeShipping": [
                 {
                     "region": "MG",
