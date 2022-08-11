@@ -8,7 +8,7 @@
                     "type": "array",
                     "title": "Categorias",
                     "items": {
-                        "$ref": "app:lojalizz.m3-custom#/definitions/Category"
+                        "$ref": "app:agenciamagma.m3-custom#/definitions/Category"
                     }
                 }
             }
@@ -21,7 +21,7 @@
                     "type": "array",
                     "title": "SubCategorias",
                     "items": {
-                        "$ref": "app:lojalizz.m3-custom#/definitions/SubCategory"
+                        "$ref": "app:agenciamagma.m3-custom#/definitions/SubCategory"
                     }
                 },
                 "nome": {
@@ -59,6 +59,48 @@
                     "default": ""
                 }
             }
-        }
+        },
+        "FreeShippingStatus": {
+            "type": "object",
+            "properties": {
+              "showFreeShippingComponent": {
+                "title": "Mostrar componente de frete grátis",
+                "type": "boolean",
+                "default": true
+              },
+              "valueForFreeShipping": {
+                "title": "Valor minimo para o cliente receber frete Gratis",
+                "type": "number",
+                "default": 15000
+              },
+              "hideForUnlistedRegions": {
+                "title": "Ocultar para regioes nao listadas",
+                "type": "boolean",
+                "default": false
+              },
+              "regionsAndValueToFreeShipping": {
+                "title": "Regiões e valores para frete grátis",
+                "type": "array",
+                "items": {
+                  "$ref": "app:agenciamagma.m3-custom#/definitions/RegionsAndValues"
+                }
+              }
+            }
+          },
+          "RegionsAndValues": {
+            "type": "object",
+            "properties": {
+              "valueForFreeShipping": {
+                "title": "Valor para frete grátis",
+                "type": "number",
+                "default": null
+              },
+              "region": {
+                "title": "Sigla do estado que terá frete grátis",
+                "type": "string",
+                "default": null
+              }
+            }
+          }
     }
 }

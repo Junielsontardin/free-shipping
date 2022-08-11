@@ -23,7 +23,7 @@
         "component": "CustomMenu",
         "composition": "children",
         "content": {
-            "$ref": "app:lojalizz.m3-custom#/definitions/CustomMenu"
+            "$ref": "app:agenciamagma.m3-custom#/definitions/CustomMenu"
         }
     },
 
@@ -44,7 +44,10 @@
     "custom-inst-nav": {
         "component": "InstitucionalNav"
     },
-    "custom-cookies-popup": {
-        "component": "CookiesPopUp"
+    "free-shipping": {
+        "component": "FreeShippingStatus",
+        "content": {
+            "$ref": "app:agenciamagma.m3-custom#/definitions/FreeShippingStatus"
+        }
     }
 }

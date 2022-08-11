@@ -1,7 +1,6 @@
 {
     "store.home": {
         "blocks": [
-            "custom-cookies-popup",
             "list-context.image-list#demo",
             "flex-layout.row#deals",
             "__fold__",

@@ -5184,45 +5184,43 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.63.0/public/@types/vtex.checkout-graphql":
-  version "0.63.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.63.0/public/@types/vtex.checkout-graphql"
-  integrity sha512-Td/+chJiQWCwgUL9/eoFyciVo0AbFy3Hs7yXpM3OUZNM2sr2NuaXoXhj4vT03pyBG0HOTF/TXPPtphNBqJQ/IA==
+"vtex.checkout-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.65.2/public/@types/vtex.checkout-graphql":
+  version "0.65.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.checkout-graphql@0.65.2/public/@types/vtex.checkout-graphql#8f1021aa381be9524ff3048f23767922da138b4f"
 
 "vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles":
   version "0.4.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@0.4.4/public/@types/vtex.css-handles"
   integrity sha512-QHSMD4rq2nKtJ1f1tH/RPqj4cYu2gKdghYHBdJSYzGh0e7AGD8ByCPzSdHyVnlO2OIRKAAqPHI05baN6neLYFg==
 
-"vtex.native-types@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.7.5/public/@types/vtex.native-types":
-  version "0.7.5"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.7.5/public/@types/vtex.native-types"
-  integrity sha512-oDFuTCUk7x5uF9N+o9ZPhnpgnFYRlR2DCHTtn/hDaYMlQxMb8Dm8VVzERRCfuQDsD56hXSb326CohRzHRlq3gQ==
+"vtex.native-types@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.8.0/public/@types/vtex.native-types":
+  version "0.8.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.8.0/public/@types/vtex.native-types#4fb38349122295832408d511efefa604a0addc57"
+
+"vtex.order-manager@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager":
+  version "0.12.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager#2cf6a9d2a31bc503b783c257695b0d17c09b5696"
 
 "vtex.product-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context":
   version "0.10.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-context@0.10.0/public/@types/vtex.product-context"
   integrity sha512-wib/8sXnd5mYRaYxL0NlCTAbyhq02VQLzhHPjW3ixA5uJn8+7TGTloBMpW2g0Pz3Avj/Y1Z98NDFSWz+nUKM6w==
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime":
-  version "8.132.3"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime"
-  integrity sha512-VuBWCIt6YbFZkQG0Xzzgl+oSi2w013z6TnJRlGEBk7/adFwwQRxV/R0FtwtoysYXgKTzg9E4WnWSjv1kK6y/5A==
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
+  version "8.132.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
 
-"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.47.2/public/@types/vtex.search-graphql":
-  version "0.47.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.47.2/public/@types/vtex.search-graphql"
-  integrity sha512-QSk5Cwi05DlMrrJetGabVWUmHop4rInewvDJ++qUGRnaZ6Lm/rcFStgUHt8cIK7akb6nEQ4pcOVQAPETIE58bg==
+"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.50.0/public/@types/vtex.search-graphql":
+  version "0.50.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.50.0/public/@types/vtex.search-graphql#e29e418461f338165a1f4ddaf2ed0fd2e7246420"
 
-"vtex.store-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.147.4/public/@types/vtex.store-graphql":
-  version "2.147.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.147.4/public/@types/vtex.store-graphql"
-  integrity sha512-CV/uVYKgYN+heW6LODqPiHVyFGMBrwGlxB9GkNes+LvlowhrzNA0BUcdhRNRDj+GqOruSEORZg4mLGeYhxl2Jg==
+"vtex.store-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.155.24/public/@types/vtex.store-graphql":
+  version "2.155.24"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-graphql@2.155.24/public/@types/vtex.store-graphql#00ce841655a13ffdd515ba433fea114ba5393d16"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.2/public/@types/vtex.styleguide":
-  version "9.145.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.145.2/public/@types/vtex.styleguide"
-  integrity sha512-gNAUzBe7aURQXdO/ce3c4d7hl0jxNqL4Ky5qudNuXEqtWTspXPzbGcmfOt4ChOKaVEx+r9gN6khUJU1ZVInsxQ==
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide":
+  version "9.146.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"
