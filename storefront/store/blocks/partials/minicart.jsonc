@@ -34,6 +34,7 @@
         "children": ["flex-layout.col#minicart-footer"]
     },
     "flex-layout.col#minicart-footer": {
+        "title": "Minicart Footer Aqui",
         "children": [
             "free-shipping",
             "minicart-summary", 
